@@ -1,0 +1,19 @@
+# 原始图片和压缩包只在本地保留，许可另存于 docs/。
+data/raw/
+data/splits_original_3000/
+outputs_reference/
+
+# 教学材料不纳入项目展示。
+learning_notes.md
+
+# Python、编辑器、环境和临时文件。
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+.vscode/
+.idea/
+.DS_Store
+*.part
+*.tmp

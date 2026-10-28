@@ -1,0 +1,25 @@
+{
+  "checkpoint_epoch": 4,
+  "device": "cuda",
+  "test_size": 450,
+  "correct": 443,
+  "errors": 7,
+  "accuracy": 0.9844444444444445,
+  "loss": 0.052525286277135215,
+  "class_to_idx": {
+    "cat": 0,
+    "dog": 1
+  },
+  "confusion_matrix_rows_true_columns_predicted": [
+    [
+      222,
+      3
+    ],
+    [
+      4,
+      221
+    ]
+  ],
+  "test_manifest_sha256": "8e6910ab5e5a0bf93a20affcadac4b24d85d938c4f2a529f1d75fe1e116be2a4",
+  "checkpoint_sha256": "95ce63b138e7b1c79f138d18026215a53988d682d1255ce5fe933ead77dd496e"
+}

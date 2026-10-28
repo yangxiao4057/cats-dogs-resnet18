@@ -1,0 +1,4 @@
+path,reason
+data/raw/PetImages/Cat/666.jpg,UnidentifiedImageError: cannot identify image file '/home/yangxiao/projects/cats-dogs-resnet18/data/raw/PetImages/Cat/666.jpg'
+data/raw/PetImages/Dog/11702.jpg,UnidentifiedImageError: cannot identify image file '/home/yangxiao/projects/cats-dogs-resnet18/data/raw/PetImages/Dog/11702.jpg'
+data/raw/PetImages/Dog/9041.jpg,ValueError: 解码产生截断或损坏警告，保守排除

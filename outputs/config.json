@@ -1,0 +1,28 @@
+{
+  "architecture": "resnet18",
+  "pretrained_weights": "IMAGENET1K_V1",
+  "seed": 42,
+  "epochs": 5,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "optimizer": "Adam",
+  "loss": "CrossEntropyLoss",
+  "time_budget_seconds": 1200,
+  "train_size": 1000,
+  "val_size": 450,
+  "trainable_parameters": 1026,
+  "backbone_batchnorm": "eval; running statistics fixed",
+  "preprocessing": "EXIF transpose, RGB, IMAGENET1K_V1.transforms()",
+  "class_to_idx": {
+    "cat": 0,
+    "dog": 1
+  },
+  "python": "3.10.21",
+  "torch": "2.7.1+cu128",
+  "torchvision": "0.22.1+cu128",
+  "gpu": "NVIDIA GeForce RTX 5070 Laptop GPU",
+  "manifest_sha256": {
+    "train": "daba6795dceca5ae5d6a3cb6fe730b27e6e57694ce6d72f70c1486436884c8de",
+    "val": "50cd3cbfadfca8f27e3f5ccd2c562a3ec4402c9fb5f1530cc13ca60846c36736"
+  }
+}

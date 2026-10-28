@@ -1,0 +1,9 @@
+{
+  "completed_epochs": 5,
+  "best_epoch": 4,
+  "best_val_acc": 0.9822222222222222,
+  "elapsed_seconds": 20.686373431999982,
+  "stop_reason": "completed_5_epochs",
+  "backbone_parameters_and_buffers_unchanged": true,
+  "test_evaluated": false
+}

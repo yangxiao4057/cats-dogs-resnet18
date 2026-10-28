@@ -1,0 +1,5 @@
+# CSV 字节参与 SHA256 核对，跨平台检出时禁止换行转换。
+*.csv -text
+*.pt binary
+*.png binary
+*.pdf binary

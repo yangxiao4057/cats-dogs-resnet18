@@ -1,0 +1,6 @@
+# GPU 版本见 README；已有 d2l 环境无需重新安装。
+torch==2.7.1
+torchvision==0.22.1
+numpy==1.23.5
+Pillow==12.3.0
+matplotlib==3.7.2

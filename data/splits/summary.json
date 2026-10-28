@@ -1,0 +1,46 @@
+{
+  "seed": 42,
+  "selection_method": "Reproduce original 1500/class sample; retain first 500/class from original training allocation; validation/test unchanged",
+  "class_to_idx": {
+    "cat": 0,
+    "dog": 1
+  },
+  "source": "https://www.microsoft.com/en-us/download/details.aspx?id=54765",
+  "scanned_per_class": {
+    "cat": 12500,
+    "dog": 12500
+  },
+  "invalid_images": 3,
+  "warning_records": 2,
+  "same_class_duplicates_removed": 26,
+  "cross_class_conflict_images_removed": 6,
+  "eligible_unique_per_class": {
+    "cat": 12480,
+    "dog": 12485
+  },
+  "splits": {
+    "train": {
+      "total": 1000,
+      "per_class": {
+        "cat": 500,
+        "dog": 500
+      }
+    },
+    "val": {
+      "total": 450,
+      "per_class": {
+        "cat": 225,
+        "dog": 225
+      }
+    },
+    "test": {
+      "total": 450,
+      "per_class": {
+        "cat": 225,
+        "dog": 225
+      }
+    }
+  },
+  "duplicate_method": "SHA256 of EXIF-oriented decoded RGB pixels and dimensions; near-duplicates not checked",
+  "raw_images_modified": false
+}
